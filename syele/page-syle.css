@@ -1,0 +1,32 @@
+.player-sec {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+
+}
+.player-sec .section-title {
+  color: var(--blue);
+  margin-bottom: 2rem;
+}
+.player-sec .players-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  /* justify-content: space-between; */
+  
+}
+.player-sec .players-container .player {
+  display: flex;
+  align-items: center;
+}
+.player-sec .players-container .player img {
+  width: 41px;
+}
+.player-sec .players-container .player .player-name {
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1rem;
+
+}
+

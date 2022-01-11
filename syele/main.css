@@ -1,5 +1,8 @@
 :root {
   --blue: #562EFF;
+  --white: #ffffff;
+
+  --bg-color: #F3F1FF;
 }
 html {
   font-size: 100%;
@@ -13,5 +16,15 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: #F3F1FF;
+  background-color: var(--bg-color);
+}
+
+main {
+  width: 100%;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: var(--white);
+
 }
