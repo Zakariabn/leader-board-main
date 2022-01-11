@@ -1,4 +1,39 @@
+
 .nav-bar {
-  display: flex;
+  width: 100vw;
+  /* height: ; */
   background-color: var(--blue);
+}
+.nav-bar .nav-items-container{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .nav-items-container .logo{
+  padding: .3rem 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.nav-bar .nav-items-container .logo .logo-text {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 1rem;
+}
+
+.nav-bar .nav-items-container .nav-items { /*this is for image and items*/
+  display: flex;
+  padding: .3rem 1.5rem;
+}
+.nav-bar .nav-items-container .nav-items ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-bar .nav-items-container .nav-items .nav-item .nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 0 2rem;
 }
