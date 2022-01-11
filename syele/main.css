@@ -1,0 +1,17 @@
+:root {
+  --blue: #562EFF;
+}
+html {
+  font-size: 100%;
+}
+
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #F3F1FF;
+}
