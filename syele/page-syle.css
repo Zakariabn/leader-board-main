@@ -1,3 +1,11 @@
+.leader-bord {  /*i was trying to use main as a refarance but while thear 2 separate section 
+                i use this leader bord section so i can devaided leaderbord and course section*/
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+
 .player-sec {
   width: 100%;
   max-width: 1200px;
@@ -27,6 +35,114 @@
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 1rem;
+}
+
+hr {
+  border-top: 1px solid var(--bg-color);
+  color: var(--white);
+}
+/* top player section design end hear */
+
+/* Top blogs section design start frome hear */
+.blog-sec {
 
 }
+.blog-sec .section-title {
+  margin: 2rem 0;
+  color: var(--blue);
+}
+.blog-sec .blogs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+.blog-sec .blogs-container .blog {
+  display: flex;
+}
+.blog-sec .blogs-container .blog .blog-thumbnail img {
+  width: 177px;
+  height: 117px;
+}
+.blog-sec .blogs-container .blog .blog-content {
+
+}
+.blog-sec .blogs-container .blog .blog-content .blog-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 .7rem 1rem;
+}
+.blog-sec .blogs-container .blog .blog-content .author {
+  margin-left: 1rem;
+  color: var(--gray);
+}
+.blog-sec .blogs-container .blog .blog-content .author .author-name {
+  color: var(--blue);
+}
+/* leader bord section end hear */
+
+/* course section style start from hear */
+.course-sec {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+.course-sec .section-title {
+  color: var(--blue);
+  margin-bottom: 1.5rem;
+
+}
+.course-sec .course-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.course-sec .course-container .course {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: .5rem .5rem;
+  border-radius: .5rem;
+}
+.course-sec .course-container .course-thumbnail img {
+  width: 275px;
+  margin-bottom: .5rem;
+}
+.course-sec .course-container .course-details .course-content .course-heading {
+  font-size: 1.25rem;
+  margin-bottom: .3rem;
+}
+.course-sec .course-container .course-details .course-content .author{
+  color: var(--tomato);
+  margin-bottom: .8rem;
+}
+.course-sec .course-container .course-details .course-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-sec .course-container .course-details .course-info .reviews .star{
+  color: var(--yellow);
+  margin-right: .6rem;
+}
+.course-sec .course-container .course-details .course-info .reviews .rating{
+  color: var(--gray);
+}
+.course-sec .course-container .course-details .course-info .duration {
+  background-color: var(--light-red);
+  padding: .2rem 1rem;
+  border-radius: 2rem;
+}
+.course-sec .course-container .course-details .course-info .duration .fa-clock,
+.course-time-duration, .unit{
+  color: var(--red);
+}
+
+
+
+
+
 

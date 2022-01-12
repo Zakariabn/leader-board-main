@@ -1,9 +1,22 @@
 :root {
+
+/* color pallet */
   --blue: #562EFF;
   --white: #ffffff;
+  --gray: #9F9F9F;
+
+  --tomato: #ED6B4F;
+  --red: #FF4A60;
+  --light-red: #FFE4E8;
+
+  --yellow: #FFC014;
 
   --bg-color: #F3F1FF;
+
+/* Font family */
+  --main-font: 'Poppins', sans-serif;
 }
+
 html {
   font-size: 100%;
 }
@@ -17,14 +30,10 @@ html {
 }
 body {
   background-color: var(--bg-color);
+  font-family: var(--main-font);
 }
-
 main {
   width: 100%;
   max-width: 1100px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  border-radius: 5px;
-  background-color: var(--white);
-
+  margin: auto;
 }
